@@ -1,4 +1,4 @@
-const apiUrl = `${Cypress.env("apiUrl")}`
+const apiUrl = `${Cypress.env("http://localhost:3000/api/ping")}`
 
 describe('Backend Test Spec', () => {
 
